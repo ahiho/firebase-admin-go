@@ -83,6 +83,12 @@ type MockTokenSource struct {
 	AccessToken string
 }
 
+// RemoteConfig represents the configuration of Firebase Cloud Remote Config service.
+type RemoteConfig struct {
+	Opts      []option.ClientOption
+	ProjectID string
+}
+
 // Token returns the test token associated with the TokenSource.
 func (ts *MockTokenSource) Token() (*oauth2.Token, error) {
 	return &oauth2.Token{AccessToken: ts.AccessToken}, nil
