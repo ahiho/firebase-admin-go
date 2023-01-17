@@ -73,9 +73,9 @@ type ListVersionsOptions struct {
 // Condition targets a specific group of users
 // A list of these conditions make up part of a Remote Config template
 type Condition struct {
-	Expression string   `json:"expression"`
-	Name       string   `json:"name"`
-	TagColor   TagColor `json:"tagColor"`
+	Expression string `json:"expression"`
+	Name       string `json:"name"`
+	// TagColor   TagColor `json:"tagColor"`
 }
 
 // RemoteConfig represents a Remote Config
