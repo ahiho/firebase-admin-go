@@ -12,17 +12,17 @@ type TagColor int
 // Tag colors
 const (
 	colorUnspecified TagColor = iota
-	Blue
-	Brown
-	Cyan
-	DeepOrange
-	Green
-	Indigo
-	Lime
-	Orange
-	Pink
-	Purple
-	Teal
+	BLUE
+	BROWN
+	CYAN
+	DEEP_ORANGE
+	GREEN
+	INDIGO
+	LIME
+	ORANGE
+	PINK
+	PURPLE
+	TEAL
 )
 
 // Version a Remote Config template version.
